@@ -1,0 +1,11 @@
+server:
+  port: 80
+spring:
+  application:
+    name: xc‐service‐manage‐cms
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///equipment_trace?useUnicode=true&characterEncoding=utf8
+    username: root
+    # password: superroot...
+    password: root
